@@ -48,4 +48,14 @@ public class FirstSeleniumJavaTest {
         System.out.println("title is "+title1);
         AssertJUnit.assertTrue(title1.equals("Google"));
     }
+
+    @Test
+    public void testTwoDuplicate() {
+        driver.get("https://www.google.co.uk/");
+        driver.manage().window().maximize();
+
+        String title1 = driver.getTitle();
+        System.out.println("title is "+title1);
+        AssertJUnit.assertTrue(title1.equals("Google"));
+    }
 }
