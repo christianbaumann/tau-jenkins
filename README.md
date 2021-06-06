@@ -1,0 +1,1 @@
+Excercise code for the [Continuous Integration with Jenkins course](https://testautomationu.applitools.com/jenkins-tutorial/) on [TestautomationU](https://testautomationu.applitools.com/)
